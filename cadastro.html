@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+    <main>
+        <form action="index.html" method="get" class="form">
+            <header>
+                <h1>Cadastro</h1>
+            </header>
+            <div class="cadastro">
+
+                <input type="text" name="nome" id="nome" placeholder="Nome" required> <br>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required> <br>
+                <input type="email" name="email" id="email" placeholder="E-mail" required> <br>
+                <input type="password" name="senha" id="senha" placeholder="Senha" required> <br>
+                <input type="password" name="Csenha" id="Csenha" placeholder="Confirme sua senha" required> <br>
+
+            </div> <br>
+
+            <h2>Gênero</h2>
+            <div class="genero"></div>
+            <div>
+                <input type="radio" name="genero" id="Masculino" value="Masculino">
+                <label for="Masculino">Masculino</label> </div>
+            <div>
+                <input type="radio" name="genero" id="Feminino" value="Feminino">
+                <label for="Feminino">Feminino</label> </div>
+            <div>
+                <input type="radio" name="genero" id="Personalizado" value="Personalizado">
+                <label for="Personalizado">Personalizado</label> </div>
+
+            <div class="termos">
+                <div>
+                    <input type="checkbox" name="termos" id="li" required>
+                    <label for="li">Li e concordo com os termos de uso.</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="termos" id="receber" checked required>
+                    <label for="receber">Desejo receber atualizações.</label> </div>
+            </div> <br> <br>
+
+            <button class="cadastrar">Cadastrar</button>
+            <nav>
+                <p class="log">Deseja retornar ao login?
+                    <a href="index.html">Clique aqui!</a>
+                </p>
+            </nav>
+    </main>
+    </form>
+</body>
+</html>
